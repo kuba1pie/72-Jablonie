@@ -1,0 +1,91 @@
+///Theme Name: customtheme
+///Author: Kuba
+///Version: 1.0
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+html {
+  margin: 0px;
+  width: 100%;
+  font-family: "Noto Sans", sans-serif;
+  body {
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    header {
+      display: flex;
+      flex-flow: row;
+      width: 100%;
+      padding: 0em;
+      margin: 0em;
+      background-color: #333333;
+      .page-logo {
+        img {
+          width: 200px;
+        }
+      }
+      nav {
+        margin: 0px;
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333333;
+          display: inline;
+          li {
+            padding: 1em;
+            display: inline;
+          }
+          li a {
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+          }
+          li a:hover {
+            background-color: #111111;
+          }
+        }
+      }
+    }
+    main {
+      background-color: yellow;
+      display: flex;
+      flex-flow: nowrap row;
+      article {
+        padding: 0.8em;
+        margin: 1em;
+        border: 2px solid pink;
+        h2 {
+          font-size: 42px;
+          padding: 0.2em;
+          margin: 0;
+        }
+        img {
+          max-width: 200px;
+          height: auto;
+          margin: 0 auto;
+        }
+        p {
+          font-size: 1.4em;
+        }
+        .post-meta {
+          margin-top: 2em;
+        }
+      }
+    }
+    aside {
+      background-color: pink;
+      width: 400px;
+      article {
+        border: 1px solid black;
+        font-size: 10px;
+      }
+    }
+    footer {
+      width: 100%;
+      background-color: red;
+    }
+  }
+}
