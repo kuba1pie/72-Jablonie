@@ -8,10 +8,10 @@ if ( have_posts() ) :
 <article class="page-layout">
   <table border="0" width="100%">
     <tr>
-      <td width="30%">
+      <td class="tdcontent"><?php the_content() ?></td>
+      <td class="tdtitle" width="30%">
         <h2><?php the_title() ?></h2>
       </td>
-      <td><?php the_content() ?></td>
     </tr>
   </table>
 </article>

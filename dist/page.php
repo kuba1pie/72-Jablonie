@@ -9,9 +9,7 @@ if ( have_posts() ) :
 
 <?php endif ?>
 <article class="page-layout">
-  <div class="sitemap"><?php wp_list_pages(); ?></div>
   <h2><?php the_title() ?></h2>
-  <h3>page.php</h3>
   <?php the_content() ?>
 </article>
 
@@ -20,7 +18,7 @@ if ( have_posts() ) :
 else :
 	echo '<p>There are no pages!</p>';
 endif;
-get_template_part('aside');
+//get_template_part('aside');
 get_footer();
  
 ?>

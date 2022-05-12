@@ -1,0 +1,32 @@
+.lunch {
+  background-image: url("img/sebastian-coman-photography-kFJ8tL53qcg-unsplash.jpg");
+  background-color: rgba($color: #bdf78e, $alpha: 1);
+  background-size: cover;
+  background-position: center;
+  article {
+    background-color: rgba(180, 202, 191, 0.62);
+  }
+  .dish {
+    padding: 1.5em;
+    text-align: center;
+    font-size: 1.2em;
+    p {
+      padding: 0.5em;
+      margin: 0 auto;
+      max-width: 600px;
+      background-color: $boti-3;
+    }
+    &--title {
+      font-family: "Dancing Script", cursive;
+      font-size: 1.5em;
+    }
+    &--name {
+      font-weight: 600;
+    }
+    &--date {
+      font-family: "Dancing Script", cursive;
+      font-size: 1.5em;
+      font-weight: 600;
+    }
+  }
+}
