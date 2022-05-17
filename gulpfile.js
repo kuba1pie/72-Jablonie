@@ -3,8 +3,11 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass")(require("sass"));
 var concat = require("gulp-concat");
-// eslint-disable-next-line  @typescript-eslint/no-explicit-any
+// kuba
 var pathDest = "E:/Program Files/xampp/htdocs/wp_jablonie/wp-content/themes/72-Jablonie"
+// julia
+var pathDest =
+  "D:/Program Files/xampp/htdocs/wp_jablonie/wp-content/themes/72-Jablonie";
 
 var path =
   "D:/Program Files/xampp/htdocs/wp_jablonie/wp-content/themes/72-Jablonie";
