@@ -5,7 +5,7 @@ var sass = require("gulp-sass")(require("sass"));
 var concat = require("gulp-concat");
 
 var path =
-  "E:/Program Files/xampp/htdocs/jablonie/wp-content/themes/72-Jablonie";
+  "D:/Program Files/xampp/htdocs/wp_jablonie/wp-content/themes/72-Jablonie";
 
 function buildStyles() {
   return gulp
