@@ -3,6 +3,8 @@
 var gulp = require("gulp");
 var sass = require("gulp-sass")(require("sass"));
 var concat = require("gulp-concat");
+// eslint-disable-next-line  @typescript-eslint/no-explicit-any
+var pathDest = "E:/Program Files/xampp/htdocs/wp_jablonie/wp-content/themes/72-Jablonie"
 
 var path =
   "D:/Program Files/xampp/htdocs/wp_jablonie/wp-content/themes/72-Jablonie";
@@ -23,10 +25,15 @@ function copyPhp() {
   return gulp.src("./**/*.php").pipe(gulp.dest(path));
 }
 
+function copyFiles() {
+  return gulp.src("./dist/**/*").pipe(gulp.dest(pathDest));
+}
+
 gulp.task("watchStyle", function () {
   buildStyles();
   copyStyles();
-  gulp.watch("./scss/**/*.scss", gulp.series("buildStyles", "copyStyles"));
+  copyFiles();
+  gulp.watch("./scss/**/*.scss", gulp.series("buildStyles", "copyStyles", "copyFiles"));
 });
 
 gulp.task("watchPhp", function () {
@@ -34,8 +41,10 @@ gulp.task("watchPhp", function () {
   gulp.watch("./**/*.php", gulp.series("copyPhp"));
 });
 
+
 gulp.task("watch", gulp.series("watchStyle", "watchPhp"));
 
 exports.buildStyles = buildStyles;
 exports.copyStyles = copyStyles;
 exports.copyPhp = copyPhp;
+exports.copyFiles = copyFiles;

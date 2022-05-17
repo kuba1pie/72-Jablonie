@@ -249,7 +249,7 @@ section.menu .wrapper article {
   color: #533c1c;
 }
 section.menu .wrapper article p {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 section.menu .wrapper article .price {
   float: right;
