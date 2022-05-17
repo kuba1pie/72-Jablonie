@@ -6,8 +6,7 @@ var concat = require("gulp-concat");
 // kuba
 var pathDest = "E:/Program Files/xampp/htdocs/wp_jablonie/wp-content/themes/72-Jablonie"
 // julia
-var pathDest =
-  "D:/Program Files/xampp/htdocs/wp_jablonie/wp-content/themes/72-Jablonie";
+//var pathDest = "D:/Program Files/xampp/htdocs/wp_jablonie/wp-content/themes/72-Jablonie";
 
 var path =
   "D:/Program Files/xampp/htdocs/wp_jablonie/wp-content/themes/72-Jablonie";
