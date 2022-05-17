@@ -14,6 +14,7 @@ footer .info {
 footer .info .adress {
   grid-column: 1;
   grid-row: 1;
+  font-size: 1.3em;
 }
 footer .info .contact {
   grid-column: 2;
