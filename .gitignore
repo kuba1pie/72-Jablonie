@@ -20,3 +20,4 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+style.css
