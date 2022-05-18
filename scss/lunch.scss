@@ -4,27 +4,29 @@
   background-size: cover;
   background-position: center;
   article {
-    background-color: rgba(180, 202, 191, 0.62);
+    background-color: rgba(180, 202, 191, 0.01);
   }
   .dish {
     padding: 1.5em;
     text-align: center;
-    font-size: 1.2em;
-    p {
+    .dish--box {
       padding: 0.5em;
       margin: 0 auto;
       max-width: 600px;
-      background-color: $boti-3;
+      $dish: #ffffffd2;
+      background-color: $dish;
+      box-shadow: $dish 0px 0px 5px 10px ;
     }
     &--title {
-      font-family: "Dancing Script", cursive;
-      font-size: 1.5em;
+      @include font-fancy;
+      font-size: 5em;
+      color:darkgoldenrod;
+      margin:0;
     }
     &--name {
-      font-weight: 600;
+      font-weight: 400;
     }
     &--date {
-      font-family: "Dancing Script", cursive;
       font-size: 1.5em;
       font-weight: 600;
     }

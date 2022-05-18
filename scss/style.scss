@@ -1,13 +1,11 @@
 ///Theme Name: customtheme
 ///Author: Kuba
 ///Version: 1.0
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Raleway:wght@100;200;300;400&display=swap');
 html {
   margin: 0 auto;
   width: 100%;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Raleway', sans-serif;
   scroll-behavior: smooth;
   body {
     border: none;
@@ -20,8 +18,9 @@ html {
       flex-flow: nowrap column;
       h2 {
         text-align: center;
-        font-family: "Dancing Script", cursive;
-        font-size: 42px;
+        @include font-fancy;
+        font-size: 5em;
+        font-weight: 400;
         margin: 0.8em auto;
       }
       article {
