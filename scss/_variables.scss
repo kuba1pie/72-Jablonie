@@ -20,3 +20,7 @@ $boti-5: #c99f3b;
 $boti-6: #533c1c;
 
 $bp-medium: 768px;
+
+@mixin font-fancy {
+    font-family: 'Italianno', cursive;
+  }

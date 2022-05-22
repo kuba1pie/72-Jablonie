@@ -17,9 +17,13 @@
 	            endif;
 	            ?>
     <div class="dish">
-      <p class="dish--title">Zestaw dnia</p>
+		<div class="dish--box">
+		<p class="dish--title">Zestaw dnia</p>
       <p class="dish--date"><?php the_title(); ?></p>
-      <p class="dish--name"><?php the_content(); ?></p>
+      <span class="dish--name"><?php the_content(); ?></span>
+
+		</div>
+      
     </div>
   </article>
   <?php

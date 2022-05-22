@@ -1,0 +1,10 @@
+.banner{
+    .wrapper{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        .item{
+            min-width: 300px;
+        }
+    }
+}

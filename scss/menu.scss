@@ -5,7 +5,7 @@ section.menu {
     padding: 4px 0 10px 0;
     font-size: 2em;
     text-align: center;
-    font-family: "Dancing Script", cursive;
+    @include font-fancy;
   }
   .wrapper {
     max-width: 1600px;
