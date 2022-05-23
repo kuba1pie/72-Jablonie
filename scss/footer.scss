@@ -7,7 +7,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 1.8em 0;
     background-color: $boti-3;
-    color: $boti-6;
+    color: darkgoldenrod;
     .adress {
       grid-column: 1;
       grid-row: 1;
@@ -24,8 +24,8 @@ footer {
   }
   .description {
     padding: 1.2em 0;
-    background-color: $boti-1;
-    color: $boti-6;
+    background-color: $boti-7;
+    color: darkgoldenrod;
   }
   a:link {
     text-decoration: none;
