@@ -13,7 +13,8 @@
       </h4>
       <a href="https://goo.gl/maps/Ydvhm1fYNRQsJm3c8">
         <p>
-          Zajazd Jankaz<br>
+          Restauracja Jabłonie<br>
+          <a href="https://zajazdblonie.pl">Zajazd Błonie</a><br>
           📍 ul. Sochaczewska 33A<br>
           05-870 Błonie
         </p>
