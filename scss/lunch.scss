@@ -15,14 +15,14 @@
       max-width: 600px;
       $dish: #ffffffd2;
       background-color: $dish;
-      box-shadow: $dish 0px 0px 5px 10px ;
+      box-shadow: $dish 0px 0px 5px 10px;
     }
     &--title {
       @include font-fancy;
       font-size: 5em;
-    
-      color:darkgoldenrod;
-      margin:0;
+
+      color: #b8860b;
+      margin: 0;
     }
     &--name {
       font-weight: 400;
