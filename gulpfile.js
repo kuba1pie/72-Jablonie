@@ -4,12 +4,10 @@ var gulp = require("gulp");
 var sass = require("gulp-sass")(require("sass"));
 var concat = require("gulp-concat");
 // kuba
-var pathDest = "E:/Program Files/xampp/htdocs/wp_jablonie/wp-content/themes/72-Jablonie"
+var pathDest =
+  "E:/Program Files/xampp/htdocs/wp_jablonie/wp-content/themes/72-Jablonie";
 // julia
 //var pathDest = "D:/Program Files/xampp/htdocs/wp_jablonie/wp-content/themes/72-Jablonie";
-
-var path =
-  "D:/Program Files/xampp/htdocs/wp_jablonie/wp-content/themes/72-Jablonie";
 
 function buildStyles() {
   return gulp
@@ -19,39 +17,16 @@ function buildStyles() {
     .pipe(gulp.dest("./dist/"));
 }
 
-function copyStyles() {
-  return gulp.src("./dist/style.css").pipe(gulp.dest(path));
-}
-
-function copyPhp() {
-  return gulp.src("./dist/**/*").pipe(gulp.dest(pathDest));
-}
-
 function copyFiles() {
   return gulp.src("./dist/**/*").pipe(gulp.dest(pathDest));
 }
 
-gulp.task("watchStyle", function () {
+gulp.task("watch", function () {
   buildStyles();
-  copyStyles();
   copyFiles();
-  gulp.watch("./scss/**/*.scss", gulp.series("buildStyles", "copyStyles", "copyFiles"));
-  gulp.watch(
-    "./dist/**/*.php",
-    gulp.series( "copyPhp")
-  );
-  
+  gulp.watch("./scss/**/*.scss", gulp.series("buildStyles", "copyFiles"));
+  gulp.watch("./dist/**", gulp.series("copyFiles"));
 });
-
-gulp.task("watchPhp", function () {
-  copyPhp();
-  gulp.watch("./**/*.php", gulp.series("copyPhp"));
-});
-
-
-gulp.task("watch", gulp.series("watchStyle", "watchPhp"));
 
 exports.buildStyles = buildStyles;
-exports.copyStyles = copyStyles;
-exports.copyPhp = copyPhp;
 exports.copyFiles = copyFiles;
