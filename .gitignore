@@ -21,3 +21,4 @@ node_modules/
 *.sql
 *.sqlite
 style.css
+gulpfile.js
