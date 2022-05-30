@@ -11,7 +11,6 @@ footer {
     .adress {
       grid-column: 1;
       grid-row: 1;
-      font-size: 1.3em;
     }
     .contact {
       grid-column: 2;
@@ -27,14 +26,15 @@ footer {
     background-color: $boti-7;
     color: #b8860b;
   }
+  a {
+    color: #b8860b;
+  }
   a:link {
     text-decoration: none;
-    color: $boti-6;
   }
 
   a:visited {
     text-decoration: none;
-    color: $boti-6;
   }
 
   a:hover {
@@ -44,7 +44,6 @@ footer {
 
   a:active {
     text-decoration: underline;
-    color: $boti-3;
   }
   @media only screen and (max-width: $bp-medium) {
     .info {
