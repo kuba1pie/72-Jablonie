@@ -11,14 +11,14 @@
       <h4>
         Adres
       </h4>
-      <a href="https://goo.gl/maps/Ydvhm1fYNRQsJm3c8">
         <p>
           Restauracja Jabłonie<br>
           <a href="https://zajazdblonie.pl">Zajazd Błonie</a><br>
-          📍 ul. Sochaczewska 33A<br>
-          05-870 Błonie
+           <a href="https://goo.gl/maps/Ydvhm1fYNRQsJm3c8">
+            📍 ul. Sochaczewska 33A<br>
+            05-870 Błonie
+          </a>
         </p>
-      </a>
     </div>
     <div class="contact">
       <h4>Kontakt</h4>
@@ -26,6 +26,7 @@
         <a href="tel:+48604530134"> &#128241; +48 604 530 134</a><br>
         <a href="tel:+48227254561"> &#9742; 22 725 45 61</a><br>
         <a href="mailto:kontakt@restauracjajablonie.pl">kontakt@restauracjajablonie.pl</a>
+        <a href="mailto:recepcja@zajazdblonie.pl">recepcja@zajazdblonie.pl</a>
       </p>
     </div>
   </section>

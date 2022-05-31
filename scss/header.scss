@@ -1,13 +1,13 @@
 @import "variables";
 
 header {
+  background-color: #153027;
   display: flex;
   flex-flow: column;
   width: 100%;
   padding: 0em;
   margin: 0em;
   .page-logo {
-    background-color: #153027;
     width: 100%;
     display: static;
     text-align: center;
@@ -35,8 +35,7 @@ header {
     display: none;
   }
   nav {
-    margin: 0 auto;
-
+    margin: 0.5em auto 1em auto;
     ul {
       list-style-type: none;
       margin: 0.5em auto;
@@ -59,7 +58,7 @@ header {
         color: #ca7e61;
         transition: 0.3s;
         &:hover {
-          color: #539200;
+          text-shadow: 2px 2px 15px;
           text-decoration: none;
         }
         &:visited {
