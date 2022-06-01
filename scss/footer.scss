@@ -1,33 +1,21 @@
 @import "variables";
 footer {
-  text-align: center;
   font-size: 1.5em;
+  background-image: url("img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1em;
+  color: #ffffff;
   .info {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     padding: 1.8em 0;
-    background-color: $boti-3;
-    color: #b8860b;
-    .adress {
-      grid-column: 1;
-      grid-row: 1;
-    }
-    .contact {
-      grid-column: 2;
-      grid-row: 1;
-    }
-    .opening {
-      grid-column: 3;
-      grid-row: 1;
-    }
+    text-align: right;
+    margin-right: 1em;
   }
   .description {
-    padding: 1.2em 0;
-    background-color: $boti-7;
-    color: #b8860b;
+    text-align: center;
   }
   a {
-    color: #b8860b;
+    color: #ffffff;
   }
   a:link {
     text-decoration: none;
@@ -47,30 +35,11 @@ footer {
   }
   @media only screen and (max-width: $bp-medium) {
     .info {
-      grid-template-columns: 1fr;
       padding: 0.2em;
       padding-bottom: 1em;
       p {
         margin: 0;
         display: block;
-      }
-      h4 {
-        margin-bottom: 0.8em;
-      }
-      .adress {
-        grid-column: 1;
-        grid-row: 2;
-      }
-      .contact {
-        grid-column: 1;
-        grid-row: 3;
-      }
-      .opening {
-        grid-column: 1;
-        grid-row: 1;
-        p {
-          display: inline;
-        }
       }
     }
   }
