@@ -1,0 +1,55 @@
+.contact {
+  .center {
+    text-align: center;
+  }
+  &__wrapper {
+    display: flex;
+    flex-flow: column;
+    margin: 2em auto;
+    padding: 50px 0;
+    background-image: url("img/contact--bg.jpg");
+    background-color: #3b3b3b8f;
+    background-size: cover;
+    background-position: top center;
+    color: #ffffff;
+    a {
+      color: #ffffff;
+    }
+    .item {
+      &__box {
+        display: flex;
+        flex-flow: row;
+        width: 100%;
+        max-width: 1400px;
+        justify-content: space-around;
+        margin: 0 auto;
+        &--adress {
+          min-width: 350px;
+          text-align: center;
+        }
+        &--form {
+          min-width: 500px;
+          form input {
+            width: 100%;
+          }
+        }
+      }
+      &__opening {
+        .wrapper {
+          display: flex;
+          flex-flow: row;
+          margin: 0 auto;
+          justify-content: center;
+          div {
+            min-width: 300px;
+          }
+        }
+      }
+    }
+  }
+  &__location {
+    max-width: 800px;
+    padding: 2em;
+    margin: 0 auto;
+  }
+}

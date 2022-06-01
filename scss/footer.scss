@@ -9,10 +9,15 @@ footer {
   .info {
     padding: 1.8em 0;
     text-align: right;
-    margin-right: 1em;
+    margin-right: 3em;
+    h4{
+      @include font-fancy;
+      font-size: 1.4em;
+    }
   }
   .description {
     text-align: center;
+    font-style: italic;
   }
   a {
     color: #ffffff;
