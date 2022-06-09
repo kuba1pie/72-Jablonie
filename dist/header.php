@@ -36,7 +36,7 @@
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <header>
-    <div class="page-logo">
+    <div id="page-logo" class="page-logo">
       <a href="<?php echo home_url(); ?>"> <img src="<?php bloginfo('template_directory'); ?>/img/logo.svg" alt=""></a>
     </div>
     <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
@@ -51,5 +51,12 @@
   function toggleMenu() {
     document.getElementById("nav").classList.toggle("open");
   }
+
+  let parentElement = document.getElementById("menu-menu_main")
+  let elem = document.querySelector('#page-logo');
+
+// Create a copy of it
+let newDiv = elem.cloneNode(true);
+  parentElement.insertBefore(newDiv, parentElement.children[2]);
   </script>
   <main class="content">
