@@ -7,7 +7,7 @@
   <title><?php wp_title('-', true, 'right'); ?><?php bloginfo('name'); ?></title>
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?> /style/style.css" type="text/css"
     media="screen" />
-
+  <link rel="preload" as="font" href="https://fonts.googleapis.com/css2?family=Italianno&family=Raleway:wght@100;200;300;400&display=swap">
   <?php wp_enqueue_script( 'comment-reply' ); ?>
   <?php wp_head(); ?>
   <!-- Google Tag Manager -->

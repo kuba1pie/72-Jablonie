@@ -19,6 +19,7 @@ html {
       h2 {
         text-align: center;
         @include font-fancy;
+        color: $yellow--fancy;
         font-size: 4em;
         font-weight: 400;
         margin: 0.8em auto;
@@ -38,11 +39,20 @@ html {
           margin-top: 2em;
         }
       }
+      .name{
+        font-weight: 500;
+      }
     }
     @media only screen and (max-width: $bp-medium) {
       main {
         flex-flow: column;
       }
+      h3{
+        margin: 0.5em 0 0.2em 0;
+      }
+    }
+    .yellow{
+      color: $yellow--fancy;
     }
   }
 }

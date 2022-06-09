@@ -6,7 +6,7 @@
     <p>
       Sochaczewska 33A, Błonie<br>
       <a href="tel:+48604530134">+48 604 530 134</a><br>
-      <a href="mailto:kontakt@restauracjajablonie.pl">kontakt@restauracjajablonie.pl</a>
+      <a href="mailto:kontakt@restauracjajablonie.pl" class="mail">kontakt@restauracjajablonie.pl</a>
     </p>
     <p>
       Codziennie 12-21

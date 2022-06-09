@@ -1,11 +1,11 @@
 .lunch {
-  background-image: url("img/lunch--bg.jpg");
-  background-color: rgba($color: #bdf78e, $alpha: 1);
+  background-image: url("img/lunch--bg.webp");
   background-size: cover;
   background-position: top center;
+  background-attachment: fixed;
   color: #ffffff;
   article {
-    background-color: rgba(180, 202, 191, 0.01);
+    background-color:rgba(53, 60, 56, 0.57);
   }
   .dish {
     padding: 1.5em;

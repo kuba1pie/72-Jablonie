@@ -7,7 +7,7 @@ if ( have_posts() ) :
 <article class="page-layout">
 <section class="menu" id="menu">
 
-  <h2>Menu</h2>
+  <h2 class="yellow">Menu</h2>
   <div class="wrapper">
 
     <?php

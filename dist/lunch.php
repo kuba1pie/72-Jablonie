@@ -18,7 +18,7 @@
 	            ?>
     <div class="dish">
 		<div class="dish--box">
-		<p class="dish--title">Lunch Menu</p>
+		<p class="dish--title yellow">Lunch Menu</p>
 		<p class="dish--info">Zupa i drugie danie w cenie 27 zł<br>
 Od poniedziałku do piątku w godzinach 12-17</p>
       <p class="dish--date"><?php the_title(); ?></p>

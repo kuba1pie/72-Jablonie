@@ -24,7 +24,6 @@ header {
     display: none;
     color: #ca7e61;
     position: absolute;
-    background-color: #153027;
     right: 0px;
     top: 0px;
     padding: 0.5em;
@@ -81,8 +80,7 @@ header {
       display: flex;
       flex-flow: column;
       justify-content: center;
-      background-color: #153027;
-      width: 100vw;
+      background-color: #ffffff;
       min-height: 100vh;
       height: 100%;
       width: 100%;
@@ -90,7 +88,7 @@ header {
       z-index: 1; /* Sit on top */
       left: 0;
       top: 0;
-      background-color: rgba(21, 48, 39, 0.97);
+      margin: 0;
       li {
         display: block;
         text-align: center;
@@ -102,7 +100,6 @@ header {
       all: unset;
       display: block;
       position: absolute;
-      background-color: #15302700;
       right: 0px;
       top: 0px;
       font-size: 3em;
@@ -113,6 +110,10 @@ header {
         height: 1em;
         padding: 1em;
       }
+    }
+    .info {
+      margin: 0;
+      justify-content: center;
     }
   }
 }

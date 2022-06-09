@@ -23,6 +23,8 @@
     article {
       min-width: 321px;
       max-width: 400px;
+      width: 100%;
+      margin: 5px;
       p {
         font-size: 1.25em;
       }
@@ -33,6 +35,11 @@
         display: block;
         color: #220022;
         font-size: 0.9em;
+      }
+    }
+    .meals {
+      @media only screen and (max-width: $bp-medium) {
+        padding: 0 0.5em;
       }
     }
   }

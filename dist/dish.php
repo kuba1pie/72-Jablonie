@@ -13,7 +13,7 @@ $meal = $args['meal'];
 	$arr_posts = new WP_Query( $args );
 	 
 	if ($arr_posts->have_posts() ):  ?>
-  <h3 class="meal meal__<?php echo $meal ?>"><?php $cat = get_term_by( 'slug', $meal, 'category');
+  <h3 class="yellow meal meal__<?php echo $meal ?>"><?php $cat = get_term_by( 'slug', $meal, 'category');
 echo $cat->name; ?></h3>
   <div class="meals">
     <?php
@@ -23,7 +23,9 @@ echo $cat->name; ?></h3>
 	            if (has_post_thumbnail() ):                 the_post_thumbnail();
 	            endif;
 	            ?>>
-      <?php the_title(); ?>
+      <span class="name">
+        <?php the_title(); ?>
+      </span>
       <span class="price">
         <?php echo get_post_meta( get_the_ID(), 'Cena' ,true ); ?>zł
       </span>
