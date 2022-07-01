@@ -33,14 +33,18 @@ get_header();
     </div>
   </article>
   <article class="contact__location center">
-    <h3 class="yellow">Dojazd</h3>
+    <h2>Dojazd</h2>
     <p>
       Restauracja położona jest w Błoniu przy skrzyżowaniu drogi krajowej 92 (trasa Poznań – Sochaczew – Warszawa) oraz drogi wojewódzkiej 579 (Grodzisk – Nowy Dwór Mazowiecki).
     </p>
     <p>
       Dla gości restauracji dostępny jest bezpłatny parking z wjazdem od ulicy Targowej.
     </p>
-  </article>
+</article>
+<article class="contact__map center">
+  <?php get_template_part('map'); ?>
+</article>
+
 </section>
 
 <?php get_footer(); ?>

@@ -1,0 +1,19 @@
+.rooms {
+  max-width: 1600px;
+  min-height: 600px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  p {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  @media only screen and (max-width: $bp-medium) {
+    max-width: initial;
+  }
+  table {
+    max-width: 700px;
+    font-size: 1.4em;
+    margin: 2em auto;
+  }
+}

@@ -1,11 +1,11 @@
 ///Theme Name: customtheme
 ///Author: Kuba
 ///Version: 1.0
-@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Raleway:wght@100;200;300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Raleway:wght@100;200;300;400&display=swap");
 html {
   margin: 0 auto;
   width: 100%;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   scroll-behavior: smooth;
   body {
     border: none;
@@ -13,18 +13,25 @@ html {
     padding: 0;
     display: flex;
     flex-flow: column;
+    h2 {
+      color: $green--br;
+      font-size: 5em;
+      font-weight: 400;
+      padding: 0;
+      text-align: center;
+      @include font-fancy;
+      margin: 0.2em auto;
+    }
+    h3 {
+      font-size: 4em;
+      font-weight: 600;
+      text-align: center;
+      @include font-fancy;
+    }
     main {
       display: flex;
       flex-flow: nowrap column;
-      h2 {
-        text-align: center;
-        @include font-fancy;
-        color: $yellow--fancy;
-        font-size: 4em;
-        font-weight: 400;
-        margin: 0.8em auto;
-      }
-      a{
+      a {
         color: #000000;
       }
       article {
@@ -39,7 +46,7 @@ html {
           margin-top: 2em;
         }
       }
-      .name{
+      .name {
         font-weight: 500;
       }
     }
@@ -47,11 +54,11 @@ html {
       main {
         flex-flow: column;
       }
-      h3{
+      h3 {
         margin: 0.5em 0 0.2em 0;
       }
     }
-    .yellow{
+    .yellow {
       color: $yellow--fancy;
     }
   }

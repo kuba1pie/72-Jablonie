@@ -12,7 +12,8 @@ footer {
     margin-right: 3em;
     h4 {
       @include font-fancy;
-      font-size: 1.4em;
+      font-size: 2em;
+      margin: 1em auto;
     }
   }
   .description {

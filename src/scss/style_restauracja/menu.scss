@@ -1,18 +1,5 @@
-.menu {
+.c-menu {
   padding: 2em 0;
-  h2 {
-    color: $green--br;
-    font-size: 7em;
-    font-weight: 600;
-    padding: 0;
-    margin: 0;
-  }
-  h3 {
-    font-size: 4em;
-    font-weight: 600;
-    text-align: center;
-    @include font-fancy;
-  }
   .wrapper {
     max-width: 1600px;
     display: flex;
@@ -35,6 +22,9 @@
         display: block;
         color: #220022;
         font-size: 0.9em;
+      }
+      @media only screen and (max-width: $bp-medium) {
+        max-width: initial;
       }
     }
     .meals {
