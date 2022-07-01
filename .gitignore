@@ -21,3 +21,7 @@ node_modules/
 *.sql
 *.sqlite
 style.css
+gulpfile.js
+_ftp/*
+dist/*
+dist/

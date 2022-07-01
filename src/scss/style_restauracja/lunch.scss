@@ -1,0 +1,31 @@
+.lunch {
+  background-image: url("img/lunch--bg.webp");
+  background-size: cover;
+  background-position: top center;
+  color: #ffffff;
+  article {
+    background-color:rgba(53, 60, 56, 0.57);
+  }
+  .dish {
+    padding: 1.5em;
+    text-align: center;
+    .dish--box {
+      padding: 0.5em;
+      margin: 0 auto;
+      max-width: 600px;
+    }
+    &--title {
+      @include font-fancy;
+      font-size: 5em;
+      margin: 0;
+    }
+    &--name {
+      font-weight: 400;
+      font-size: 1.5em;
+    }
+    &--date {
+      font-size: 1.5em;
+      font-weight: 600;
+    }
+  }
+}

@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/kuba1pie/72-Jablonie/issues"
   },
-  "homepage": "https://github.com/kuba1pie/72-Jablonie#readme"
+  "homepage": "https://github.com/kuba1pie/72-Jablonie#readme",
+  "dependencies": {
+    "gulp-flatten": "^0.4.0"
+  }
 }
