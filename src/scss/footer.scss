@@ -1,7 +1,7 @@
 @import "variables";
 footer {
   font-size: 1.5em;
-  background-image: url("img/footer--bg.webp");
+  background-image: url("img/footerBg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1em;
@@ -45,7 +45,7 @@ footer {
       padding-bottom: 1em;
       margin: 0;
       text-align: center;
-      h4{
+      h4 {
         font-size: 2em;
         margin: 0.8em auto;
       }
@@ -55,7 +55,7 @@ footer {
         display: block;
         overflow-wrap: anywhere;
       }
-      .mail{
+      .mail {
         font-size: 0.75em;
       }
     }
